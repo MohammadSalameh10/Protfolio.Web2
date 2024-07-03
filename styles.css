@@ -1,0 +1,117 @@
+body {
+   Background-color: rgb(1, 36, 49);
+   Color: white;
+   Transition: all 0.4s ease-in-out;
+   Margin: 0;
+   Padding: 0;
+   
+}
+
+.menu {
+   Background-color: #040b31;
+   Color: white;
+   Padding: 10px;
+   Position: fixed;
+   Width: 100%;
+   height: 2rem;
+   Top: 0;
+   Z-index: 1000;
+   display: flex;
+   flex-direction: row;
+}
+
+.menu .title {
+   Font-size: 1.5rem;
+   Cursor: pointer;
+   font-weight: bold;
+}
+
+.menu-right {
+   Margin-left: 59rem;
+   display: flex;
+   flex-direction: row;
+}
+
+.menu-right span {
+   Font-size: 1.5rem;
+   Margin-right: 1.5rem;
+   font-weight: bold;
+}
+
+.home {
+   display: grid;
+   grid-template-columns: repeat(2, 1fr);
+   width: 100%;
+   height: 20rem;
+  margin-top: 3.25rem;
+  min-height: 100vh;
+}
+
+.home-left {
+ padding-left: 6rem;
+padding-top: 5rem;
+font-size: 1.5rem;
+}
+.home-left .hello{
+   font-size: 1.7rem;
+   font-weight: bold;
+}
+.home-left .name{
+   font-size: 2rem;
+   font-weight: bold;
+}
+.home-left .work{
+font-size: 1.5rem;
+font-weight: bold;
+}
+.home-left .work span{
+   color: #00f7ff;
+}
+.social{
+   display: flex;
+   flex-direction: row;
+   margin-top: 1.5rem;
+}
+.social i{
+   font-size: 1rem;
+   margin-right: 1rem;
+   border: #00f7ff 2px solid;
+   border-radius: 50%;
+   color: #00f7ff;
+   padding: 0.5rem;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   width: 1.5rem;
+   height: 1.5rem;
+}
+.button{
+   background-color: #00f7ff;
+   width: 12rem;
+   height: 2.5rem;
+   border-radius: 1.2rem;
+   margin-top: 1rem;
+   cursor: pointer;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   box-shadow: 0 0 1rem #00f7ff;
+   margin-top: 1.5rem;
+}
+.button span{
+   font-size: 1rem;
+   font-weight: bold;
+   color: black;
+}
+.home-right img{
+ margin-top: 1.5rem;
+ margin-left: 5rem;
+   Width: 75%;
+   Height: 75%;
+   Object-fit: cover;
+   Transition: all 0.4s ease-in-out;
+   border-radius: 50%;
+   border: #00f7ff 3px solid;
+   box-shadow: 0 0 5rem #00f7ff;
+}
+
