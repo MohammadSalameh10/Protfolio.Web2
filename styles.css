@@ -31,7 +31,10 @@ body {
    display: flex;
    flex-direction: row;
 }
-
+.menu-right a{
+   text-decoration: none;
+   color: white;
+}
 .menu-right span {
    Font-size: 1.5rem;
    Margin-right: 1.5rem;
@@ -90,8 +93,11 @@ body {
    justify-content: center;
    width: 1.5rem;
    height: 1.5rem;
+   text-decoration: none;
 }
-
+.social a{
+   text-decoration: none;
+}
 .button {
    background-color: #00f7ff;
    width: 12rem;
