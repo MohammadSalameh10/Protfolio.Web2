@@ -4,7 +4,7 @@ body {
    Transition: all 0.4s ease-in-out;
    Margin: 0;
    Padding: 0;
-   
+
 }
 
 .menu {
@@ -20,7 +20,7 @@ body {
    flex-direction: row;
 }
 
-.menu .title {
+.menu-title {
    Font-size: 1.5rem;
    Cursor: pointer;
    font-weight: bold;
@@ -43,36 +43,42 @@ body {
    grid-template-columns: repeat(2, 1fr);
    width: 100%;
    height: 20rem;
-  margin-top: 3.25rem;
-  min-height: 100vh;
+   margin-top: 3.25rem;
+   min-height: 100vh;
 }
 
 .home-left {
- padding-left: 6rem;
-padding-top: 5rem;
-font-size: 1.5rem;
+   padding-left: 6rem;
+   padding-top: 5rem;
+   font-size: 1.5rem;
 }
-.home-left .hello{
+
+.home-left .hello {
    font-size: 1.7rem;
    font-weight: bold;
 }
-.home-left .name{
+
+.home-left .name {
    font-size: 2rem;
    font-weight: bold;
 }
-.home-left .work{
-font-size: 1.5rem;
-font-weight: bold;
+
+.home-left .work {
+   font-size: 1.5rem;
+   font-weight: bold;
 }
-.home-left .work span{
+
+.home-left .work span {
    color: #00f7ff;
 }
-.social{
+
+.social {
    display: flex;
    flex-direction: row;
    margin-top: 1.5rem;
 }
-.social i{
+
+.social i {
    font-size: 1rem;
    margin-right: 1rem;
    border: #00f7ff 2px solid;
@@ -85,7 +91,8 @@ font-weight: bold;
    width: 1.5rem;
    height: 1.5rem;
 }
-.button{
+
+.button {
    background-color: #00f7ff;
    width: 12rem;
    height: 2.5rem;
@@ -98,14 +105,16 @@ font-weight: bold;
    box-shadow: 0 0 1rem #00f7ff;
    margin-top: 1.5rem;
 }
-.button span{
+
+.button span {
    font-size: 1rem;
    font-weight: bold;
    color: black;
 }
-.home-right img{
- margin-top: 1.5rem;
- margin-left: 5rem;
+
+.home-right img {
+   margin-top: 1.5rem;
+   margin-left: 5rem;
    Width: 75%;
    Height: 75%;
    Object-fit: cover;
@@ -115,3 +124,277 @@ font-weight: bold;
    box-shadow: 0 0 5rem #00f7ff;
 }
 
+.about {
+   display: grid;
+   grid-template-columns: repeat(2, 1fr);
+   width: 100%;
+   height: 20rem;
+   margin-top: 3.25rem;
+   min-height: 100vh;
+}
+
+.about-left img {
+   margin-top: 1.5rem;
+   margin-left: 5rem;
+   Width: 75%;
+   Height: 75%;
+   Object-fit: cover;
+   Transition: all 0.4s ease-in-out;
+   border-radius: 50%;
+   border: #00f7ff 3px solid;
+   box-shadow: 0 0 5rem #00f7ff;
+}
+
+.about-right {
+   padding-top: 2.5rem;
+   font-size: 1.5rem;
+}
+
+.about-title {
+   font-size: 3rem;
+   font-weight: bold;
+   margin-top: 1.5rem;
+}
+
+.about-right .about-title span {
+   color: #00f7ff;
+}
+.about-right p{
+   margin-right: 2rem;
+}
+
+.skills{
+   width: 100%;
+   height: 70rem;
+   margin-top: 3.25rem;
+   min-height: 100vh;
+}
+
+.skills-title span {
+   color: #00f7ff;
+}
+
+.skills-title {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-size: 3rem;
+   font-weight: bold;
+
+}
+
+.my-skills{
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+   margin-top: 2rem;
+   margin-left: 12rem;
+   margin-right: 12rem;
+}
+
+.skill {
+   display: flex;
+   flex-direction: column;
+   margin-top: 1.5rem;
+   width: 20rem;
+   height: 25rem;
+   box-shadow: 0 0 2rem #004cff;
+   border-radius: 20px;
+}
+.skill i{
+   font-size: 3rem;
+   margin-top: 1rem;
+   margin-left: 1rem;
+   color: #00f7ff;
+}
+.skill .front{
+   font-size: 2rem;
+   font-weight: bold;
+   margin-top: 1rem;
+   margin-left: 1rem;
+}
+.skill p{
+   margin-top: 1rem;
+   margin-left: 1rem;
+}
+.skill .button{
+   margin-left: 1rem;
+}
+.skill:hover{
+   transform: translateY(-1rem);
+   transition: all 0.4s ease-in-out;
+}
+.skill{
+   transition: all 0.4s ease-in-out;
+}
+.T-Skills .T-Skills-title{
+   display: flex;
+   justify-content: center;
+   align-self: start;
+   padding-top: 7rem;
+   font-size: 1.5rem;
+   font-weight: bold;
+}
+.my-T-Skills{
+   display: grid;
+   grid-template-columns: repeat(2, 1fr);
+}
+.my-T-Skills-about{
+   display: flex;
+   flex-direction: column;
+   margin-left: 10rem;
+   margin-top: 2rem;
+}
+.html-bar{
+   display: flex;
+   flex-direction: column;
+}
+.html-bar .T-Skills-bar{
+   background-color: black;
+   width: 23rem;
+   height: 5px;
+   border-radius: 3px;
+}
+.html-bar .bar-cover{
+   background-color: #00f7ff;
+   width: 19rem;
+   height: 5px;
+   border-radius: 3px;
+}
+.html-bar i{
+   color: chocolate;
+   padding-bottom: 6px;
+   font-size: 20px;
+}
+.html-bar span{
+  padding-bottom: 3px;
+}
+
+.css-bar{
+   display: flex;
+   flex-direction: column;
+   margin-top: 1rem;
+}
+.css-bar .T-Skills-bar{
+   background-color: black;
+   width: 23rem;
+   height: 5px;
+   border-radius: 3px;
+}
+.css-bar .bar-cover{
+   background-color: #00f7ff;
+   width: 10rem;
+   height: 5px;
+   border-radius: 3px;
+}
+.css-bar i{
+   color: rgb(0, 85, 205);
+   padding-bottom: 6px;
+   font-size: 20px;
+}
+.css-bar span{
+  padding-bottom: 3px;
+}
+
+.js-bar{
+   display: flex;
+   flex-direction: column;
+   margin-top: 1rem;
+}
+.js-bar .T-Skills-bar{
+   background-color: black;
+   width: 23rem;
+   height: 5px;
+   border-radius: 3px;
+}
+.js-bar .bar-cover{
+   background-color: #00f7ff;
+   width: 5rem;
+   height: 5px;
+   border-radius: 3px;
+}
+.js-bar i{
+   color: yellow;
+   padding-bottom: 6px;
+   font-size: 20px;
+}
+.js-bar span{
+  padding-bottom: 3px;
+}
+
+
+.react-bar{
+   display: flex;
+   flex-direction: column;
+}
+.react-bar .T-Skills-bar{
+   background-color: black;
+   width: 23rem;
+   height: 5px;
+   border-radius: 3px;
+}
+.react-bar .bar-cover{
+   background-color: #00f7ff;
+   width: 3rem;
+   height: 5px;
+   border-radius: 3px;
+}
+.react-bar i{
+   color: #00f7ff;
+   padding-bottom: 6px;
+   font-size: 20px;
+}
+.react-bar span{
+  padding-bottom: 3px;
+}
+
+.java-bar{
+   display: flex;
+   flex-direction: column;
+   margin-top: 1rem;
+}
+.java-bar .T-Skills-bar{
+   background-color: black;
+   width: 23rem;
+   height: 5px;
+   border-radius: 3px;
+}
+.java-bar .bar-cover{
+   background-color: #00f7ff;
+   width: 20rem;
+   height: 5px;
+   border-radius: 3px;
+}
+.java-bar i{
+   color: #ff0000;
+   padding-bottom: 6px;
+   font-size: 20px;
+}
+.java-bar span{
+  padding-bottom: 3px;
+}
+
+.Bootstrap-bar{
+   display: flex;
+   flex-direction: column;
+   margin-top: 1rem;
+}
+.Bootstrap-bar .T-Skills-bar{
+   background-color: black;
+   width: 23rem;
+   height: 5px;
+   border-radius: 3px;
+}
+.Bootstrap-bar .bar-cover{
+   background-color: #00f7ff;
+   width: 5rem;
+   height: 5px;
+   border-radius: 3px;
+}
+.Bootstrap-bar i{
+   color: #5d00ff;
+   padding-bottom: 6px;
+   font-size: 20px;
+}
+.Bootstrap-bar span{
+  padding-bottom: 3px;
+}
