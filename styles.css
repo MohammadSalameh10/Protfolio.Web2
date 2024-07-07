@@ -159,11 +159,16 @@ body {
 .about-title {
    font-size: 3rem;
    font-weight: bold;
-   margin-top: 1.5rem;
+   margin: 2rem 0;
 }
 
 .about-right .about-title span {
    color: #00f7ff;
+}
+.sub-title{
+   font-size: 2rem;
+   font-weight: bold;
+   padding: 4rem 0;
 }
 .about-right p{
    margin-right: 2rem;
