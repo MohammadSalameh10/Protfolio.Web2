@@ -262,13 +262,13 @@ body {
 .html-bar .T-Skills-bar{
    background-color: black;
    width: 23rem;
-   height: 5px;
+   height: 6px;
    border-radius: 3px;
 }
 .html-bar .bar-cover{
    background-color: #00f7ff;
    width: 19rem;
-   height: 5px;
+   height: 6px;
    border-radius: 3px;
 }
 .html-bar i{
@@ -280,6 +280,7 @@ body {
   padding-bottom: 3px;
 }
 
+
 .css-bar{
    display: flex;
    flex-direction: column;
@@ -288,13 +289,13 @@ body {
 .css-bar .T-Skills-bar{
    background-color: black;
    width: 23rem;
-   height: 5px;
+   height: 6px;
    border-radius: 3px;
 }
 .css-bar .bar-cover{
    background-color: #00f7ff;
    width: 10rem;
-   height: 5px;
+   height: 6px;
    border-radius: 3px;
 }
 .css-bar i{
@@ -314,13 +315,13 @@ body {
 .js-bar .T-Skills-bar{
    background-color: black;
    width: 23rem;
-   height: 5px;
+   height: 6px;
    border-radius: 3px;
 }
 .js-bar .bar-cover{
    background-color: #00f7ff;
    width: 5rem;
-   height: 5px;
+   height: 6px;
    border-radius: 3px;
 }
 .js-bar i{
@@ -340,13 +341,13 @@ body {
 .react-bar .T-Skills-bar{
    background-color: black;
    width: 23rem;
-   height: 5px;
+   height: 6px;
    border-radius: 3px;
 }
 .react-bar .bar-cover{
    background-color: #00f7ff;
    width: 3rem;
-   height: 5px;
+   height: 6px;
    border-radius: 3px;
 }
 .react-bar i{
@@ -366,13 +367,13 @@ body {
 .java-bar .T-Skills-bar{
    background-color: black;
    width: 23rem;
-   height: 5px;
+   height: 6px;
    border-radius: 3px;
 }
 .java-bar .bar-cover{
    background-color: #00f7ff;
    width: 20rem;
-   height: 5px;
+   height: 6px;
    border-radius: 3px;
 }
 .java-bar i{
@@ -392,13 +393,13 @@ body {
 .Bootstrap-bar .T-Skills-bar{
    background-color: black;
    width: 23rem;
-   height: 5px;
+   height: 6px;
    border-radius: 3px;
 }
 .Bootstrap-bar .bar-cover{
    background-color: #00f7ff;
-   width: 5rem;
-   height: 5px;
+   width: 7rem;
+   height: 6px;
    border-radius: 3px;
 }
 .Bootstrap-bar i{
@@ -408,4 +409,120 @@ body {
 }
 .Bootstrap-bar span{
   padding-bottom: 3px;
+}
+.projects{
+   width: 100%;
+   height: 55rem;
+   margin-top: 3.25rem;
+   min-height: 100vh;
+}
+.project-title{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-size: 3rem;
+   font-weight: bold;
+   margin-top: 2rem;
+}
+.project-title span{
+   color: #00f7ff;
+}
+.my-projects{
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+   margin-top: 2rem;
+   margin-left: 3rem;
+}
+.project{
+   position: relative;
+}
+.project img{
+   width: 27rem;
+   height: 36rem;
+   object-fit: cover;
+   border-radius: 20px;
+   display: block;
+   box-shadow: 0 0 3rem #004cff;
+}
+.project .overlay {
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 27rem;
+   height: 36rem;
+   border-radius: 20px;
+   background-color: #00f7ff; 
+   color: white;
+   font-size: 24px;
+   opacity: 0;
+   transition: opacity 0.4s ease;
+}
+.project:hover .overlay {
+   opacity: 1;
+}
+
+.contact{
+   width: 100%;
+   height: 70rem;
+   margin-top: 3.25rem;
+   min-height: 100vh;
+}
+.contact-title{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-size: 3rem;
+   font-weight: bold;
+   margin-top: 2rem;
+}
+.contact-title span{
+   color: #00f7ff;
+}
+.contact-form{
+   display: grid;
+   grid-template-columns: repeat(2, 1fr);
+   margin-top: 2rem;
+   margin-left: 10rem;
+}
+.contact-left{
+   display: flex;
+   flex-direction: column;
+}
+.contact-left .contact-head{
+   font-size: 1.5rem;
+   font-weight: bold;
+   margin-top: 1rem;
+}
+.contact-left i{
+   color: #00f7ff;
+}
+.contact-left span{
+   color: white;
+}
+.contact-right{
+   display: flex;
+   flex-direction: column;
+}
+.contact-right input{
+   width: 25rem;
+   height: 2rem;
+   margin-top: 1rem;
+   border-radius: 1rem;
+   border: 1px solid #00f7ff;
+   padding-left: 1rem;
+   background-color: white;
+   color: black;
+  
+}
+.contact-right .button{
+   width: 26rem;
+}
+.contact-right .message{
+   width: 25rem;
+   height: 15rem;
+   border-radius: 1rem;
+   border: 1px solid #00f7ff;
+   background-color: white;
+   color: black;
+   text-align: left;
 }
